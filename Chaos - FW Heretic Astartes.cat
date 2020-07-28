@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2128-f196-8f1c-b352" name="Chaos - FW Heretic Astartes" revision="48" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="2128-f196-pubN106623" name="Index: Chaos"/>
-  </publications>
+<catalogue id="2128-f196-8f1c-b352" name="Chaos - FW Heretic Astartes" revision="51" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cfcb-6416-94fb-4744" name="Wound Track, Drop Pod">
       <characteristicTypes>
@@ -167,11 +164,6 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="b716-9a5e-f5e5-0b50" name="Titanic Daemon Engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Greater Brass Scorpion of Khorne can shoot if there are enemy models within 1&quot; of it, as long as all of the enemy models have the Infantry keyword. In this case, it can shoot the enemy unit that is within 1&quot; of it or any other visible enemy unit that is within range and more than 1&quot; away from any friendly models. In addition, the Greater Brass Scorpion of Khorne can move and fire Heavy weapons wihtout suffering the penalty to its hit rolls. Finally, the Greater Brass Scorpion of Khorne only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="dc4e-3e73-1687-873c" name="Frenzied Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When the Greater Brass Scorpion of Khorne makes a charge move, roll 3D6 and add the results together to determine the maximum distance up to which it may charge.</characteristic>
@@ -191,6 +183,8 @@
       <infoLinks>
         <infoLink id="cc23-2d4f-7117-0b3d" name="Infernal Regeneration" hidden="false" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
         <infoLink id="e45e-b5b0-43ec-3647" name="Daemon Engine" hidden="false" targetId="3058-5172-2acd-9223" type="profile"/>
+        <infoLink id="2fe9-b20c-800f-12bf" name="Titanic Daemon Engine" hidden="false" targetId="cb8d-e3ac-5ec9-e239" type="profile"/>
+        <infoLink id="7db3-9a10-56da-7863" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="95ff-dd50-eaae-7605" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -301,7 +295,7 @@
         <entryLink id="18a1-2cbe-c823-234b" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="550.0"/>
+        <cost name="pts" typeId="points" value="600.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="32.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -367,6 +361,7 @@
       <infoLinks>
         <infoLink id="f9a7-1bbb-f0c7-e0ef" name="Daemon Engine" hidden="false" targetId="3058-5172-2acd-9223" type="profile"/>
         <infoLink id="aa2e-ee58-afb5-41c4" name="Infernal Regeneration" hidden="false" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
+        <infoLink id="3820-c280-6544-bb24" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="01fc-2a46-b80a-1881" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -397,9 +392,9 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="18.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a5d5-7181-6967-d120" name="Plague probe" hidden="false" collective="false" import="true" type="upgrade">
@@ -420,9 +415,9 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b6e8-ae76-33a8-c29e" name="Blightreaper cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -443,9 +438,9 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="18.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -454,7 +449,7 @@
         <entryLink id="c97e-eb29-bf7c-27cf" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="170.0"/>
+        <cost name="pts" typeId="points" value="255.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -526,6 +521,7 @@
         <infoLink id="4a86-ae6e-84c2-7ae3" name="Daemon Engine" hidden="false" targetId="3058-5172-2acd-9223" type="profile"/>
         <infoLink id="aa18-bd57-81a0-c2db" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
         <infoLink id="588f-3102-a29c-0417" name="Infernal Regeneration" hidden="false" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
+        <infoLink id="72db-852b-135e-acf1" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="356c-1080-d984-32ab" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -614,7 +610,7 @@
         <entryLink id="a0d7-b474-7896-5f94" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="165.0"/>
+        <cost name="pts" typeId="points" value="180.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -655,6 +651,7 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="ab47-aec3-d277-d7e1" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b2aa-ba7b-1955-3954" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -672,6 +669,13 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="00b4-0252-e233-0981" name="Decimator siege claw with hellflamer" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="points" value="40.0">
+                  <conditions>
+                    <condition field="selections" scope="19d7-59fa-6050-caf8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-0252-e233-0981" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a71-6d0e-6181-7629" type="max"/>
               </constraints>
@@ -686,21 +690,14 @@
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="69fe-3aec-5659-254e" name="Hellflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target.</characteristic>
-                  </characteristics>
-                </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="74c8-a148-e32a-3495" name="Hellflamer" hidden="false" targetId="b280-a863-de38-889b" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="47.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db63-6882-5080-cfc7" name="Soulburner petard" hidden="false" collective="false" import="true" type="upgrade">
@@ -767,7 +764,7 @@
         <entryLink id="49f1-24e4-0790-7d99" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="pts" typeId="points" value="100.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -819,11 +816,6 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="dda0-7fb2-c158-1ad6" name="Titanic Daemon Engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Kytan Ravager can shoot if there are enemy models within 1&quot; of it, as long as all of the enemy models have the Infantry keyword. In this case, it can shoot the enemy unit that is within 1&quot; of it or any other visible enemy unit that is within range and more than 1&quot; away from any friendly models. In addition, the Kytan Ravager can move and fire Heavy weapons wihtout suffering the penalty to its hit rolls. Finally, the Kytan Ravager only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="ea9b-8004-f3aa-2e36" name="Battle Walker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making advance rolls for this model, roll 2D6 to determine the maximum distance it may move.</characteristic>
@@ -838,6 +830,8 @@
       <infoLinks>
         <infoLink id="cdeb-8248-dbc8-63f4" name="Infernal Regeneration" hidden="false" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
         <infoLink id="09b1-ce04-1a9c-7389" name="Daemon Engine" hidden="false" targetId="3058-5172-2acd-9223" type="profile"/>
+        <infoLink id="747a-9954-081b-ac84" name="Titanic Daemon Engine" hidden="false" targetId="cb8d-e3ac-5ec9-e239" type="profile"/>
+        <infoLink id="465e-fd9a-13b0-eb5f" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c68-0fd6-cd01-007b" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -868,9 +862,9 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="80.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="12df-935b-a3c3-0cb8" name="Great cleaver of Khorne" hidden="false" collective="false" import="true" type="upgrade">
@@ -912,7 +906,7 @@
         <entryLink id="a6fb-0fbf-58f3-575d" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="330.0"/>
+        <cost name="pts" typeId="points" value="430.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -931,7 +925,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -956,20 +950,11 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2a58-6abe-0fb2-8aa0" name="Hellflamer" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6aa0-eab4-e5b0-043e" name="Hellflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
-            <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="1abd-7059-2cf9-b81b" name="Hellflamer" hidden="false" targetId="b280-a863-de38-889b" type="profile"/>
+      </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="17.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1081,6 +1066,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="86bf-51f7-87e4-ffc6" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
+        <infoLink id="0c2c-c3b5-9ae1-77d1" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="93a3-da4c-a800-454c" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -1219,7 +1205,7 @@
         <entryLink id="7a1b-03c2-936f-697b" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="88.0"/>
+        <cost name="pts" typeId="points" value="105.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1238,7 +1224,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="11.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1295,7 +1281,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="22.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1368,6 +1354,7 @@
       <infoLinks>
         <infoLink id="e856-50fa-1164-8870" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="a9df-e39c-49de-ce2b" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
+        <infoLink id="341d-a922-523d-0e33" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a105-b2b1-452c-0867" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -1437,7 +1424,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="19.0"/>
-        <cost name="pts" typeId="points" value="200.0"/>
+        <cost name="pts" typeId="points" value="210.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1472,12 +1459,12 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="6.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1548,6 +1535,7 @@
       <infoLinks>
         <infoLink id="be04-c478-c7fd-49c6" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="81fc-5d1c-6c08-9903" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
+        <infoLink id="ff69-df99-b195-9ede" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6ab2-2810-3961-19ec" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -1593,7 +1581,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="20.0"/>
-        <cost name="pts" typeId="points" value="200.0"/>
+        <cost name="pts" typeId="points" value="190.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1606,7 +1594,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each successful hit roll made with this weapon inflicts a mortal wound instead of the normal damage. This weapon may target enemy units which the bearer cannot see.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each successful hit roll made with this weapon inflicts a mortal wound instead of the normal damage. This weapon may target enemy units which the bearer cannot see. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1677,6 +1665,7 @@
       <infoLinks>
         <infoLink id="261f-1745-7d9a-c869" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="bd5d-e53d-e37c-3b40" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
+        <infoLink id="a667-1df4-0ff0-9726" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7ecd-c5f1-394d-d15d" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -1774,7 +1763,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="pts" typeId="points" value="85.0"/>
+        <cost name="pts" typeId="points" value="90.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1787,12 +1776,12 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target of an attack by this weapon is within half range, roll an additional dice when inflicting damage with it and discard the lowest result.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target of an attack by this weapon is within half range, roll an additional dice when inflicting damage with it and discard the lowest result. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1806,7 +1795,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1915,6 +1904,7 @@
       <infoLinks>
         <infoLink id="f51b-b5d9-413d-9a14" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="7d60-b7fb-beac-7b25" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
+        <infoLink id="7d67-8a46-1fc3-a900" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="12c1-83b7-f6a0-d573" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -1937,7 +1927,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may target enemy units the bearer cannot see.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may target enemy units the bearer cannot see. Blast.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1977,7 +1967,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="pts" typeId="points" value="175.0"/>
+        <cost name="pts" typeId="points" value="195.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2037,6 +2027,7 @@
       <infoLinks>
         <infoLink id="5945-a14a-dd48-4d11" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="2e7b-44b8-350f-a3ca" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
+        <infoLink id="a682-a7e5-b2bd-a499" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1d26-4e5f-78af-cb1a" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -2117,7 +2108,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
-        <cost name="pts" typeId="points" value="150.0"/>
+        <cost name="pts" typeId="points" value="180.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2201,6 +2192,7 @@
       <infoLinks>
         <infoLink id="a797-2223-5399-b97f" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="3035-4d21-173a-174b" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
+        <infoLink id="143b-6225-fb8e-0da4" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0bbb-33ef-b844-de45" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -2281,7 +2273,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
-        <cost name="pts" typeId="points" value="150.0"/>
+        <cost name="pts" typeId="points" value="200.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2366,11 +2358,6 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any Movement phase in which one or more units disembarks from a Hellforged Spartan, roll a D6. On the roll of a 1, one model from a disembarking unit, chosen by the controlling player, is slain. The number of models removed due to the effects of this rule are counted as slain models for the Spartan&apos;s Machina Malefica ability at the end of the turn.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a686-769d-a746-ff85" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may Fall Back in the Movement phase and still shoot and/or Charge during the controlling player&apos;s turn. It may fire its weapons if enemy units are within 1&quot; of it. In addition, this model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="217f-551c-7157-2771" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to its hit rolls for moving and firing Heavy weapons.</characteristic>
@@ -2381,6 +2368,8 @@
         <infoLink id="0b15-54a2-b741-8fca" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="795a-2e97-6f44-0737" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
         <infoLink id="c535-9954-7a0b-e753" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="4114-2ac1-eaa5-a174" name="Steel Behemoth" hidden="false" targetId="624e-4f09-2c68-cd55" type="profile"/>
+        <infoLink id="00c6-9dec-65e5-270f" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2d14-e33b-04ec-3ea4" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -2462,7 +2451,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="21.0"/>
-        <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts" typeId="points" value="320.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2569,6 +2558,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="22db-73e3-fe2b-2fbb" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
+        <infoLink id="c6b9-ca97-9967-afab" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="086e-6d9f-2c74-95b5" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -2599,7 +2589,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="40.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -2645,7 +2635,7 @@
         <entryLink id="3192-02b4-1db2-25c1" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120.0"/>
+        <cost name="pts" typeId="points" value="150.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2665,7 +2655,7 @@
       </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="75.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2684,7 +2674,7 @@
       </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="50.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2703,7 +2693,7 @@
       </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2719,12 +2709,12 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the bearer.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the bearer. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="21.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2742,6 +2732,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="c1be-e572-aae5-651f" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1f10-9c9f-bf47-50cf" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
@@ -2878,7 +2871,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="36.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2989,6 +2982,7 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="cd59-6974-0ca5-63b0" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="911a-8bb9-8166-be5b" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3088,7 +3082,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="175.0"/>
+        <cost name="pts" typeId="points" value="220.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="16.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3102,7 +3096,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target model has any of the Monster, Vehicle, or Titanic keywords then the amount of damage suffered becomes 5 per hit. For every five models in the target unit, add D3 to the number of attacks made by this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target model has any of the Monster, Vehicle, or Titanic keywords then the amount of damage suffered becomes 5 per hit. For every five models in the target unit, add D3 to the number of attacks made by this weapon. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3223,6 +3217,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="ff2a-7053-cbee-6c71" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
+        <infoLink id="f407-ae10-f19b-3a44" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="30e3-6e82-9d1d-9f94" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3252,7 +3247,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
-        <cost name="pts" typeId="points" value="115.0"/>
+        <cost name="pts" typeId="points" value="130.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3310,6 +3305,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="37c3-7095-218f-9a97" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
+        <infoLink id="c8d8-33dd-425d-ad8c" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a57c-376b-80f9-a2e4" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3412,16 +3408,13 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, in the preceeding turn, a Hellforged Cerberus has caused any enemy model to be removed as a casualty, the player rolls an additional dice when making wound rolls for its Malignatas beam cannon and discards the lowest dice before calculating the result of the roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1528-d235-431d-06cb" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may Fall Back in the Movement phase and still shoot and/or Charge during the controlling player&apos;s turn. It may fire its weapons if enemy units are within 1&quot; of it. In addition, this model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="9bdf-8382-550c-dbee" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="b301-38ce-563b-e7e4" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
         <infoLink id="5f62-a24e-b31a-75a0" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="26d0-7aa3-1845-b77f" name="Steel Behemoth" hidden="false" targetId="624e-4f09-2c68-cd55" type="profile"/>
+        <infoLink id="075b-c820-a596-5c80" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="66c2-2ff4-63be-ba03" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3497,7 +3490,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="23.0"/>
-        <cost name="pts" typeId="points" value="650.0"/>
+        <cost name="pts" typeId="points" value="680.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3667,16 +3660,13 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="48af-7513-bda4-ed5c" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may Fall Back in the Movement phase and still shoot and/or Charge during the controlling player&apos;s turn. It may fire its weapons if enemy units are within 1&quot; of it. In addition, this model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="7e74-c374-76a2-1a60" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="653e-80e3-5f5b-016f" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
         <infoLink id="b621-6edd-50e5-d167" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="e8c7-59a8-980d-a090" name="Steel Behemoth" hidden="false" targetId="624e-4f09-2c68-cd55" type="profile"/>
+        <infoLink id="71e6-36b2-70e0-8f79" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6f1d-0314-7941-d601" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3752,7 +3742,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
-        <cost name="pts" typeId="points" value="700.0"/>
+        <cost name="pts" typeId="points" value="720.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3765,7 +3755,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the Typhon does not move in the Movement phase, then the range of this weapon is increased to 48&quot; for the duration of the current turn.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the Typhon does not move in the Movement phase, then the range of this weapon is increased to 48&quot; for the duration of the current turn. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3832,15 +3822,12 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of shooting any weapons in the Shooting phase, this model can use its Smoke Launchers; until your next Shooting phase your opponent must subtract 1 from all hit rolls for ranged weapons that target this vehicle.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7f08-ea3a-9e4b-4494" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may Fall Back in the Movement phase and still shoot and/or Charge during the controlling player&apos;s turn. It can, except when firing Overwatch, also still fire its weapons if enemy units are within 1” of it (however, its fellblade accelerator cannon and demolisher cannon must target units that are more than 1” away). In addition, this model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c2fd-7236-8e0e-1c6f" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="fb59-6b98-64f6-b3e7" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="ef79-6852-7e96-a34a" name="Steel Behemoth" hidden="false" targetId="624e-4f09-2c68-cd55" type="profile"/>
+        <infoLink id="b570-ac93-a3cd-1c25" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="022b-9937-9519-d49a" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3933,7 +3920,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="35.0"/>
-        <cost name="pts" typeId="points" value="740.0"/>
+        <cost name="pts" typeId="points" value="690.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3956,7 +3943,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking units with five or more models, the dice rolled to decide the number of shots fired may be re-rolled.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking units with five or more models, the dice rolled to decide the number of shots fired may be re-rolled. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4042,15 +4029,12 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of shooting any weapons in the Shooting phase, this model can use its Smoke Launchers; until your next Shooting phase your opponent must subtract 1 from all hit rolls for ranged weapons that target this vehicle.</characteristic>
           </characteristics>
         </profile>
-        <profile id="b813-a437-2ba3-9b49" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may Fall Back in the Movement phase and still shoot and/or Charge during the controlling player&apos;s turn. It can, except when firing Overwatch, also still fire its weapons if enemy units are within 1” of it (however, its twin volcano cannon must target units that are more than 1” away). In addition, this model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="6375-bcc0-ab82-9af5" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="9b98-9ed5-1c9c-be1a" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="1a90-36b6-0be6-36c4" name="Steel Behemoth" hidden="false" targetId="624e-4f09-2c68-cd55" type="profile"/>
+        <infoLink id="d8d1-c682-5a55-e897" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f0df-5bcf-4bf3-1157" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4137,7 +4121,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="38.0"/>
-        <cost name="pts" typeId="points" value="840.0"/>
+        <cost name="pts" typeId="points" value="790.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4150,7 +4134,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting Titanic units with this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting TITANIC units with this weapon. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4207,11 +4191,6 @@
             <characteristic name="Void Shield" typeId="c9d0-4691-9a37-0e2a">7+</characteristic>
           </characteristics>
         </profile>
-        <profile id="378e-c501-05df-717c" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may Fall Back in the Movement phase and still shoot and/or Charge during the controlling player&apos;s turn. It can, except when firing Overwatch, also still fire its weapons if enemy units are within 1” of it (but only its hellflamers and lascannons can target units that are within 1” of it – its other ranged weapons must target other units). In addition, this model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="0823-673e-aae4-5fb5" name="In the Belly of the Beast" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any Movement phase in which one or more units disembarks from a Hellforged Mastadon, roll a D6. On the roll of a 1, one model from a disembarking unit, chosen by the controlling player, is slain. The number of models removed due to the effects of this rule are counted as slain models for the Mastadon&apos;s Machina Malefica ability at the end of the turn.</characteristic>
@@ -4232,6 +4211,8 @@
         <infoLink id="5f48-79de-ed3f-73b5" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="ddc4-b8d4-28da-b134" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
         <infoLink id="1953-4a3e-e6e8-c5cf" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="8a83-e84e-0e4b-aa79" name="Steel Behemoth" hidden="false" targetId="624e-4f09-2c68-cd55" type="profile"/>
+        <infoLink id="4b1d-b539-969f-6747" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eb1d-a5a2-59ea-dd87" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4277,7 +4258,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="42.0"/>
-        <cost name="pts" typeId="points" value="934.0"/>
+        <cost name="pts" typeId="points" value="915.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4295,7 +4276,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="42.0"/>
+        <cost name="pts" typeId="points" value="45.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -4350,6 +4331,7 @@
         <infoLink id="2098-07ba-3acc-27fb" name="Baleful Aberration" hidden="false" targetId="6e35-20da-b479-a82e" type="profile"/>
         <infoLink id="7312-9135-3831-af0c" name="Hard to Hit" hidden="false" targetId="2567-8e02-9663-8055" type="profile"/>
         <infoLink id="63d7-91b9-04c8-2ad4" name="Preternatural Manoeurverability" hidden="false" targetId="0a47-f5bc-564b-bb06" type="profile"/>
+        <infoLink id="e06f-5a80-37a8-7569" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b611-8ef0-c0f4-475e" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4406,7 +4388,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
-        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="pts" typeId="points" value="100.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4424,7 +4406,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -4434,11 +4416,6 @@
         <profile id="fcab-b340-9271-0617" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark. On a 6 it crashes and explodes, and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="4f92-2114-1e82-b1cc" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="2d43-3293-12cc-983b" name="Chaos Hell Talon" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -4492,6 +4469,7 @@
         <infoLink id="8f6d-a6aa-8b3f-671f" name="Baleful Aberration" hidden="false" targetId="6e35-20da-b479-a82e" type="profile"/>
         <infoLink id="621d-1d29-3f08-16d6" name="Hard to Hit" hidden="false" targetId="2567-8e02-9663-8055" type="profile"/>
         <infoLink id="1493-a74c-edcc-95ee" name="Supersonic" hidden="false" targetId="9207-9786-0a5b-faaf" type="profile"/>
+        <infoLink id="2348-b1b3-c38c-c1d7" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0d29-1995-6a2a-53d3" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4576,7 +4554,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="pts" typeId="points" value="180.0"/>
+        <cost name="pts" typeId="points" value="195.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4585,11 +4563,6 @@
         <profile id="4b9e-7aa6-4d1c-6ef0" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark. On a 6 it crashes and explodes, and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="a939-37ee-d4a2-9fbd" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="dbd9-a5a2-415e-b237" name="Hover Jet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4652,6 +4625,7 @@
         <infoLink id="7363-ce15-182c-e79c" name="Airborne" hidden="false" targetId="b054-22a3-2ce0-ea90" type="profile"/>
         <infoLink id="81ae-6423-da14-b77a" name="Hard to Hit" hidden="false" targetId="2567-8e02-9663-8055" type="profile"/>
         <infoLink id="113a-9662-ab1a-c2de" name="Supersonic" hidden="false" targetId="9207-9786-0a5b-faaf" type="profile"/>
+        <infoLink id="44b4-73a6-5f17-2d5e" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="89e2-72d5-e339-d4af" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4716,7 +4690,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="18.0"/>
-        <cost name="pts" typeId="points" value="210.0"/>
+        <cost name="pts" typeId="points" value="230.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4729,12 +4703,12 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="28.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -4753,7 +4727,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="50.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -4767,7 +4741,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units targeted by this weapon do not gain any bonus to their saving throws for being in cover.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units targeted by this weapon do not gain any bonus to their saving throws for being in cover. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4782,11 +4756,6 @@
         <profile id="3a8f-90ee-632e-6eb6" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark. On a 6 it crashes and explodes, and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="4c63-22ef-6382-cabc" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="81b6-c230-b4b7-a34b" name="Hover Jet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4844,6 +4813,7 @@
         <infoLink id="78d9-91a6-2adf-881f" name="Airborne" hidden="false" targetId="b054-22a3-2ce0-ea90" type="profile"/>
         <infoLink id="7d9f-0851-d3c2-4719" name="Hard to Hit" hidden="false" targetId="2567-8e02-9663-8055" type="profile"/>
         <infoLink id="777a-3629-0e99-3233" name="Supersonic" hidden="false" targetId="9207-9786-0a5b-faaf" type="profile"/>
+        <infoLink id="3bf8-6317-96e4-3505" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b521-175f-7f8e-f787" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4982,11 +4952,6 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark. On a 6 it crashes and explodes, and each unit within 6&quot; suffers 2D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6a6c-ff94-25aa-0954" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="6d8a-70d1-e598-6f8e" name="Hover Jet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before this model moves in your Movement phase, you can declare it will hover. Its Move characteristic becomes 20&quot; until the end of the phase, and it loses the Airborne, Colossal Flyer, and Supersonic abilities until the beginning of your next Movement phase.</characteristic>
@@ -5064,6 +5029,7 @@
       <infoLinks>
         <infoLink id="3812-1f61-b740-3368" name="Airborne" hidden="false" targetId="b054-22a3-2ce0-ea90" type="profile"/>
         <infoLink id="5a37-3449-5e4f-8fa0" name="Supersonic" hidden="false" targetId="9207-9786-0a5b-faaf" type="profile"/>
+        <infoLink id="6c85-2d50-30a7-bd63" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="aa9a-d5af-1107-4b18" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5115,7 +5081,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="42.0"/>
-        <cost name="pts" typeId="points" value="1330.0"/>
+        <cost name="pts" typeId="points" value="1350.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5128,7 +5094,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5180,7 +5146,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this attack automatically inflicts an additional D3 mortal wounds on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this attack automatically inflicts an additional D3 mortal wounds on the target. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5195,11 +5161,6 @@
         <profile id="f076-95ad-6269-d851" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark. On a 4+ it crashes and explodes, and each unit within 2D6&quot; suffers 2D6 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5af2-d607-c1f7-1c5a" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="f826-afb9-970b-7681" name="Hover Jet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5285,6 +5246,7 @@
       <infoLinks>
         <infoLink id="93a9-8366-e10f-d954" name="Airborne" hidden="false" targetId="b054-22a3-2ce0-ea90" type="profile"/>
         <infoLink id="4097-59d2-fb66-69fd" name="Supersonic" hidden="false" targetId="9207-9786-0a5b-faaf" type="profile"/>
+        <infoLink id="420c-71a1-4335-7794" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5ec8-b443-3238-ff51" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5327,7 +5289,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="50.0"/>
-        <cost name="pts" typeId="points" value="2000.0"/>
+        <cost name="pts" typeId="points" value="2100.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5346,7 +5308,6 @@
       </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="110.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5391,11 +5352,6 @@
             <characteristic name="BS" typeId="eabe-dfc3-210d-f528">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="d18a-904b-55c3-128a" name="Terminal Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="f4e2-0cb6-16ac-4bb4" name="Skyborn Predator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When attacking units that can FLY, add 1 to your hit rolls for this model.</characteristic>
@@ -5410,6 +5366,7 @@
       <infoLinks>
         <infoLink id="86ee-495b-7103-44fd" name="Airborne" hidden="false" targetId="b054-22a3-2ce0-ea90" type="profile"/>
         <infoLink id="89f2-5ff8-80b3-b7ec" name="Hard to Hit" hidden="false" targetId="2567-8e02-9663-8055" type="profile"/>
+        <infoLink id="cdcf-6a49-aaee-b298" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d4d8-d138-f328-a650" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5451,7 +5408,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you roll a wound roll of 5+ for this weapon, the target suffers a mortal wound in addition to the weapon&apos;s normal damage.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you roll a wound roll of 5+ for this weapon, the target suffers a mortal wound in addition to the weapon&apos;s normal damage. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5467,14 +5424,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddb8-58a3-3987-1f93" type="max"/>
       </constraints>
       <profiles>
-        <profile id="39d8-13dd-f57f-c12e" name="Blight grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="39d8-13dd-f57f-c12e" name="Blight grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls of 1 for this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls of 1 for this weapon. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5538,6 +5495,7 @@
         <infoLink id="11d6-ca63-019e-c59b" name="Disgustingly Resilient" hidden="false" targetId="ab0e-3e13-b00c-e2f5" type="profile"/>
         <infoLink id="28f4-17e8-4575-8c6e" name="Daemonic Ritual" hidden="false" targetId="3641-cfd8-80a7-ce99" type="rule"/>
         <infoLink id="636a-de3c-b13e-e052" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="eeb2-da79-cd59-67c6" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4977-9fb6-f1df-d57e" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5562,7 +5520,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Against INFANTRY targets, failed wound rolls for this weapon are re-rolled.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Against INFANTRY targets, failed wound rolls for this weapon are re-rolled. Blast.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5815,6 +5773,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="7c09-e982-00a6-820b" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="9920-9992-c283-97b2" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="87a8-2897-c4e8-1340" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5859,12 +5818,12 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Hellbrute suffers a MW after all of this weapon&apos;s shots have been resolved.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Hellbrute suffers a MW after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="16.0"/>
+                    <cost name="pts" typeId="points" value="20.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -5921,7 +5880,7 @@
         <entryLink id="2088-02ff-047e-3e8b" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5968,6 +5927,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="27e7-0057-b83a-530b" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="b122-d45d-d640-8332" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d04d-8e70-90f6-7ea0" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5995,7 +5955,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="10.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -6037,12 +5997,12 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Hellbrute suffers a MW after all of this weapon&apos;s shots have been resolved.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Hellbrute suffers a MW after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="16.0"/>
+                    <cost name="pts" typeId="points" value="20.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -6060,7 +6020,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for attacks made with this weapon.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for attacks made with this weapon. Blast.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="9e21-abd1-c5f8-2e24" name="Blastmaster, Varied frequency" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6070,12 +6030,12 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for attacks made with this weapon.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for attacks made with this weapon. Blast.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="24.0"/>
+                    <cost name="pts" typeId="points" value="20.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -6132,7 +6092,7 @@
         <entryLink id="6338-d808-ec74-6b2e" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -6204,6 +6164,7 @@
         <infoLink id="300a-af5b-9810-04f1" name="Smoke Launchers" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
         <infoLink id="6da6-f2ec-4f76-bcc0" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
         <infoLink id="939d-1889-ffd5-41e6" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
+        <infoLink id="52b3-822e-b134-3963" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d36a-4b78-3f42-f33a" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
@@ -6523,7 +6484,7 @@
         <entryLink id="3c03-47e4-2fb1-1ad8" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ea58-c71e-108b-d619" name="Contagion Discipline" publicationId="2128-f196-pubN106623" page="57" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ea58-c71e-108b-d619" name="Contagion Discipline" publicationId="28ec-711c-pubN99666" page="57" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="3a61-41a9-750f-ecea" name="Blades of Putrefaction" hidden="false" collective="false" import="true" targetId="600a-6243-caaa-9f95" type="selectionEntry"/>
         <entryLink id="2e0d-3936-f6ce-8574" name="Gift of Contagion" hidden="false" collective="false" import="true" targetId="c827-4bb5-de4b-d1b1" type="selectionEntry"/>
@@ -6666,6 +6627,27 @@ If your summoning roll included any doubles, your character then suffers a morta
     <profile id="7d3d-583e-7352-6501" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to hit rolls for moving and shooting.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb8d-e3ac-5ec9-e239" name="Titanic Daemon Engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved  across other models (excluding Monster and Vehicle models) as if they were not
+there, and when it does it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="624e-4f09-2c68-cd55" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model is selected to shoot while it is within Engagement Range of any enemy units, it can make attacks against eligible enemy units that are not within Engagement Range of it as if there were no enemy models within Engagement Range of it.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b280-a863-de38-889b" name="Hellflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

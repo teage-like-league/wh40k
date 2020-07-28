@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="83b2-e602-931a-fea1" name="Tyranids - Genestealer Cults" revision="49" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="GenWilhelm#6485" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="48" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="83b2-e602-931a-fea1" name="Tyranids - Genestealer Cults" revision="54" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="GenWilhelm#6485" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="136" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="83b2-e602-pubN65537" name="Codex: Genestealer Cults"/>
-    <publication id="83b2-e602-pubN88803" name="Imperium Nihilus: Vigilus Defiant"/>
-    <publication id="c9b0-fc84-0874-26d4" name="Psychic Awakening: The Greater Good"/>
   </publications>
   <profileTypes>
     <profileType id="ec1e-7b4c-1c12-17a1" name="Stat Damage - M, BS &amp; A">
@@ -252,7 +250,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="19.0"/>
+                <cost name="pts" typeId="points" value="22.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -279,7 +277,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="19.0"/>
+                <cost name="pts" typeId="points" value="22.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -326,7 +324,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="19.0"/>
+                    <cost name="pts" typeId="points" value="22.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -357,7 +355,7 @@
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name="pts" typeId="points" value="25.0"/>
+                        <cost name="pts" typeId="points" value="30.0"/>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
@@ -378,7 +376,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="19.0"/>
+                    <cost name="pts" typeId="points" value="22.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -511,7 +509,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="7.0"/>
+            <cost name="pts" typeId="points" value="8.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -570,7 +568,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="7.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -621,7 +619,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="7.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -685,7 +683,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="7.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -816,7 +814,7 @@
         <entryLink id="7484-2c0f-c565-36f0" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="53.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1021,7 +1019,7 @@
         <entryLink id="b329-c527-4d53-4d04" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a632-6e30-507f-b03d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="65.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1067,7 +1065,7 @@
         </profile>
         <profile id="a01b-daaa-7396-00c2" name="Grinding Advance" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model remains stationary or moves under half speed in its Movement phase (i.e. it moves a distance in inches less than half of its current Move characteristic) it can shoot its turret weapon twice in the following Shooting phase (the turret weapon must target the same unit both times). Furthermore, hit rolls for this model&apos;s turret weapon do not suffer the penalty for moving and shooting a Heavy weapon. The following weapons are turret weapons: battle cannon, eradicator nova cannon, exterminator autocannon and vanquisher battle cannon.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model remains stationary or moves under half speed in its Movement phase (i.e. it moves a distance in inches less than half of its current Move characteristic) it can shoot its turret weapon twice in the following Shooting phase (the turret weapon must target the same unit both times). The following weapons are turret weapons: battle cannon, eradicator nova cannon, exterminator autocannon and vanquisher battle cannon.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1101,7 +1099,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a1-f658-da07-4797" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="08e6-27f2-7f6e-48f1" name="Battle Cannon" hidden="false" collective="false" import="true" targetId="a35f-bd7e-2695-1fa6" type="selectionEntry"/>
+            <entryLink id="08e6-27f2-7f6e-48f1" name="Battle Cannon" hidden="false" collective="false" import="true" targetId="a35f-bd7e-2695-1fa6" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="8a37-edd9-c30e-8181" name="Eradicator Nova Cannon" hidden="false" collective="false" import="true" targetId="4f4a-118d-a4fa-79a9" type="selectionEntry"/>
             <entryLink id="8457-8627-d8d1-d535" name="Exterminator Autocannon" hidden="false" collective="false" import="true" targetId="0519-24af-3679-8f8f" type="selectionEntry"/>
             <entryLink id="fc20-abcf-e8bb-5c12" name="Vanquisher Battle Cannon" hidden="false" collective="false" import="true" targetId="d542-f7ec-dd29-47c0" type="selectionEntry"/>
@@ -1126,25 +1128,25 @@
             <entryLink id="6d09-6a23-910b-9a4a" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="2x Heavy Bolter"/>
-                <modifier type="increment" field="points" value="8"/>
+                <modifier type="increment" field="points" value="15.0"/>
               </modifiers>
             </entryLink>
             <entryLink id="026b-40f4-5034-efd6" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="2x Heavy Flamer"/>
-                <modifier type="increment" field="points" value="14"/>
+                <modifier type="increment" field="points" value="15.0"/>
               </modifiers>
             </entryLink>
             <entryLink id="c7d3-1dc3-4bb1-c671" name="Multi-melta" hidden="false" collective="false" import="true" targetId="6fe0-23b2-a20c-1f37" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="2x Multi-melta"/>
-                <modifier type="increment" field="points" value="15"/>
+                <modifier type="increment" field="points" value="25.0"/>
               </modifiers>
             </entryLink>
             <entryLink id="daa4-3cfb-ffe2-85ae" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="077b-596a-fc56-222b" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="2x Plasma Cannon"/>
-                <modifier type="increment" field="points" value="10"/>
+                <modifier type="increment" field="points" value="20.0"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -1170,7 +1172,7 @@
         <entryLink id="d72c-2ada-e913-b955" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a632-6e30-507f-b03d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="107.0"/>
+        <cost name="pts" typeId="points" value="130.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1217,7 +1219,7 @@
         <categoryLink id="3e3b-1a42-809f-1323" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="12.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1412,7 +1414,7 @@
         <entryLink id="9fe8-4019-fe47-b814" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="78.0"/>
+        <cost name="pts" typeId="points" value="90.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1644,7 +1646,7 @@
                     <infoLink id="97dc-8135-5a02-e1f2" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="1.0"/>
+                    <cost name="pts" typeId="points" value="2.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -1661,7 +1663,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="7.0"/>
+            <cost name="pts" typeId="points" value="11.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -1766,7 +1768,7 @@
                     <infoLink id="c396-5c98-3ee4-205c" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="1.0"/>
+                    <cost name="pts" typeId="points" value="2.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -1788,7 +1790,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="7.0"/>
+            <cost name="pts" typeId="points" value="11.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -1925,7 +1927,7 @@
         <entryLink id="08bb-7816-6148-ca05" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="125.0"/>
+        <cost name="pts" typeId="points" value="135.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1995,7 +1997,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93a4-af42-5323-b3b9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2f1d-42b5-9fb8-aa36" name="The Heart of the Creed" publicationId="c9b0-fc84-0874-26d4" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="2f1d-42b5-9fb8-aa36" name="The Heart of the Creed" publicationId="4593-a2f0-546a-d6f2" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle. Select one &lt;CULT&gt; PRIMUS model from your army. When that model is set up on the battlefield for the first time, you can select one additional enemy unit for that model&apos;s Meticulous Planner ability. You can only use this Stratagem once per battle.</characteristic>
               </characteristics>
@@ -2068,7 +2070,7 @@
         <entryLink id="d533-40d6-740a-0925" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="72.0"/>
+        <cost name="pts" typeId="points" value="80.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2148,7 +2150,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="17.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -2181,7 +2183,7 @@
         <infoLink id="afb8-5ec5-5d95-6bfb" name="Bonesword" hidden="false" targetId="41d1-956c-c8e3-148f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2211,7 +2213,7 @@
         <infoLink id="274c-2ac2-49f8-1c11" name="Heavy Rock Cutter" hidden="false" targetId="0f9f-67ff-1764-de63" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="12.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2241,7 +2243,7 @@
         <infoLink id="906f-d196-7e03-3198" name="Metamorph Claw" hidden="false" targetId="17e1-50bf-5c9f-1d63" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="3.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2251,7 +2253,7 @@
         <infoLink id="4667-ef64-ea10-02d3" name="Metamorph Talon" hidden="false" targetId="aa71-ee0c-18d2-fd6e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2281,7 +2283,7 @@
         <infoLink id="3687-72e6-53fa-b044" name="Heavy Power Hammer" hidden="false" targetId="170d-c6e8-1293-44e3" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="16.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2291,7 +2293,7 @@
         <infoLink id="ccf0-5651-8fb4-87da" name="Power Pick" hidden="false" targetId="1d9b-91af-1fc1-4471" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="9.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2301,12 +2303,19 @@
         <infoLink id="c2c2-83d5-ff36-ed43" name="Power maul" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="4.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f48-c2bf-69ad-157f" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="points" value="15.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c8fd-783f-3230-493e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="a393-16f0-7842-1b6e" name="Autocannon" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
       </infoLinks>
@@ -2331,7 +2340,7 @@
         <infoLink id="d3b9-a217-0562-6c16" name="Battle Cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="22.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2351,7 +2360,7 @@
         <infoLink id="eab3-3d81-b928-62d6" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2371,7 +2380,7 @@
         <infoLink id="693a-fce4-33e3-f4b8" name="Clearance Incinerator" hidden="false" targetId="7e36-8493-f7bf-c9e2" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2401,7 +2410,7 @@
         <infoLink id="dca1-6519-f330-ebe6" name="Exterminator Autocannon" hidden="false" targetId="ff2d-8509-aca0-8a5b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="17.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2411,7 +2420,7 @@
         <infoLink id="3f4d-0131-3de2-c558" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="6.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2422,7 +2431,7 @@
         <infoLink id="d695-665b-9018-e92c" name="Grenade Launcher (Krak)" hidden="false" targetId="bb2e-ee6b-523b-4440" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2432,17 +2441,24 @@
         <infoLink id="d39e-619f-0192-d4d3" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="778f-017e-aa20-74c1" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="points" value="15.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c8fd-783f-3230-493e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="ee55-6999-bb29-0096" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="8.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2452,7 +2468,7 @@
         <infoLink id="2872-e85e-b88c-d82c" name="Heavy flamer" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="14.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2483,7 +2499,7 @@
         <infoLink id="daaa-538e-2964-9b7f" name="Heavy stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2493,17 +2509,24 @@
         <infoLink id="2917-0124-2346-27d7" name="Hunter-killer missile" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="6.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db1e-7ae4-bd03-21ca" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="points" value="20.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c8fd-783f-3230-493e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="5ae1-716d-1a55-9bb7" name="Lascannon" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2543,12 +2566,19 @@
         <infoLink id="5c30-ab84-6d2a-66fc" name="Mining Laser" hidden="false" targetId="a6bc-5e15-9fa4-3299" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="12.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb20-7e8b-4806-b84e" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="points" value="20.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c8fd-783f-3230-493e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="87de-da36-7a82-6702" name="Missile launcher, Frag missile" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile">
           <modifiers>
@@ -2562,7 +2592,7 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2572,7 +2602,7 @@
         <infoLink id="733b-cb13-ab08-161c" name="Mortar" hidden="false" targetId="35c3-aae9-5867-c10a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="9.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2592,7 +2622,7 @@
         <infoLink id="2472-bbe8-13e9-3010" name="Multi-melta" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2603,7 +2633,7 @@
         <infoLink id="48c1-3655-4127-7788" name="Plasma cannon, Supercharge" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2634,7 +2664,7 @@
         <infoLink id="aa68-d4d9-250b-ca2e" name="Storm bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="3.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2644,7 +2674,7 @@
         <infoLink id="a294-ebf6-fb11-0f8e" name="Twin Autocannon" hidden="false" targetId="805d-8596-25f8-b51e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2724,7 +2754,7 @@
         <infoLink id="7fea-a0e3-7f60-5eb2" name="Web Pistol" hidden="false" targetId="b743-2892-db0c-8088" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2734,7 +2764,7 @@
         <infoLink id="bccf-14e8-fa6d-32a3" name="Webber" hidden="false" targetId="ddfb-d8d7-f9da-0be1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2813,7 +2843,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e00-544a-c698-c813" type="max"/>
           </constraints>
           <profiles>
-            <profile id="feff-9a78-fcd3-490a" name="The Cult&apos;s Psyche" publicationId="c9b0-fc84-0874-26d4" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="feff-9a78-fcd3-490a" name="The Cult&apos;s Psyche" publicationId="4593-a2f0-546a-d6f2" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle. Select one &lt;CULT&gt; MAGUS unit from your army. That unit can attempt to manifest one additional psychic power in your Psychic phase. When a Psychic test is taken for that unit, add 1 to the total for each other friendly &lt;CULT&gt; PSYKER unit within 3&quot; (to a maximum of +3). You can only use this Stratagem once per battle.</characteristic>
               </characteristics>
@@ -2900,7 +2930,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80.0"/>
+        <cost name="pts" typeId="points" value="85.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3010,7 +3040,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -3063,7 +3093,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="6.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -3108,12 +3138,12 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="6.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1fed-8054-99ee-6e54" name="Neophyte Hybrid (Lasgun)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1fed-8054-99ee-6e54" name="Neophyte Hybrid (Lasgun)" hidden="true" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e601-3a4c-48b5-8733" type="max"/>
               </constraints>
@@ -3153,7 +3183,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="6.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -3205,7 +3235,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="6.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3250,7 +3280,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="6.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3295,7 +3325,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="6.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3347,7 +3377,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="6.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3392,7 +3422,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="6.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3437,7 +3467,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="6.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3751,7 +3781,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4acd-4594-cab3-b02c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="873a-c4b2-5144-6e50" name="The Gnarled Fist" publicationId="c9b0-fc84-0874-26d4" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="873a-c4b2-5144-6e50" name="The Gnarled Fist" publicationId="4593-a2f0-546a-d6f2" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle. Select one ABOMINANT unit from your army. That unit&apos;s The Chosen One ability affects friendly &lt;CULT&gt; ABERRANT units within 9&quot; of that unit, instead of within 6&quot;. You can only use this Stratagem once per battle.</characteristic>
               </characteristics>
@@ -3797,7 +3827,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="pts" typeId="points" value="105.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3826,14 +3856,14 @@
         <infoLink id="a4b5-7258-260a-bd9c" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2b7-0466-6972-e284" name="Specialist Detachment: Anointed Throng" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="acc7-db92-149b-dbee" name="Anointed Throng" publicationId="83b2-e602-pubN88803" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="acc7-db92-149b-dbee" name="Anointed Throng" publicationId="28ec-711c-pubN98266" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this stratagem when choosing your army. Pick a GENESTEALER CULTS Detachment from your army to be an Anointed Throng Specialist Detachment. ABOMINANTS and ABERANTS in that Detachment gain the ANOINTED THRONG keyword.</characteristic>
           </characteristics>
@@ -3872,7 +3902,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8d21-e1d0-ca97-bfdb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="552c-8172-cd25-737d" name="Insidious Mindwyrm" publicationId="83b2-e602-pubN88803" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="552c-8172-cd25-737d" name="Insidious Mindwyrm" publicationId="28ec-711c-pubN98266" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to charge rolls for your Warlord and friendly ANOINTED THRONG units that are within 6&quot; of your Warlord when the roll is made.</characteristic>
           </characteristics>
@@ -3886,7 +3916,7 @@
     </selectionEntry>
     <selectionEntry id="f397-973e-f469-9950" name="Specialist Detachment: Deliverance Broodsurge" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ba05-3a99-cc9b-f27f" name="Deliverance Broodsurge" publicationId="83b2-e602-pubN88803" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="ba05-3a99-cc9b-f27f" name="Deliverance Broodsurge" publicationId="28ec-711c-pubN98266" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this stratagem when choosing your army. Pick a GENESTEALER CULTS Detachment from your army to be a Deliverance Broodsurge Specialist Detachment. ACOLYTE ICONWARDS, NEOPHYTE HYBRIDS, ACOLYTE HYBRIDS and GOLIATH TRUCKS in that Detachment gain the DELIVERANCE BROODSURGE keyword.</characteristic>
           </characteristics>
@@ -3925,7 +3955,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="05fe-79e1-50a6-05c3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f95e-fcc1-e8ab-e96e" name="Augur of the Insurgent" publicationId="83b2-e602-pubN88803" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="f95e-fcc1-e8ab-e96e" name="Augur of the Insurgent" publicationId="28ec-711c-pubN98266" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance and charge rolls for friendly DELIVERANCE BROODSURGE units if they are within 6&quot; of your Warlord when the roll is made.</characteristic>
           </characteristics>
@@ -4001,7 +4031,7 @@
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="12.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0116-f880-cb75-bb9b" name="Injector Goad" hidden="false" collective="false" import="true" type="upgrade">
@@ -4044,7 +4074,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f06-b5e7-f263-d979" name="Cult Creed" hidden="false" collective="false" import="true" type="upgrade">
@@ -4097,7 +4127,7 @@
               <profiles>
                 <profile id="400a-12b9-bd1c-ab4f" name="Disciplined Militants" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit with this Cult Creed fails a Morale test, halve the number of models that flee (rounding up). In addition, units with this Cult Creed can still shoot in a turn in which they Fall Back, but if they do so you must subtract 1 from their hit rolls in the Shooting phase of that turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a Morale test is failed for a unit with this Cult Creed, until the end of the phase, halve the number of models that flee that unit due to failed Combat Attrition tests (rounding fractions down). In addition, units with this Cult Creed can still shoot in a turn in which they Fall Back, but if they do so you must subtract 1 from their hit rolls in the Shooting phase of that turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4125,7 +4155,7 @@
               <profiles>
                 <profile id="4036-4164-ef52-ddbe" name="Nomadic Survivalists" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making saving throws (excluding invulnerable saving throws) for a model with this Cult Creed, add 1 to the result if the weapon being used to make the attack has an Armour Penetration characteristic of 0 or -1. In addition, BIKER models with this Cult Creed do not suffer the penalty to their hit rolls for moving and shooting Heavy weapons or for Advancing and shooting Assault weapons.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making saving throws (excluding invulnerable saving throws) for a model with this Cult Creed, add 1 to the result if the weapon being used to make the attack has an Armour Penetration characteristic of 0 or -1. If a BIKER unit with this Cult Creed Advances, until the end of the turn, all models in that unit treat all Pistol and Rapid Fire weapons they are equipped with as Assault weapons. In addition, BIKER models with this Cult Creed do not suffer the penalty to their hit rolls for Advancing and shooting Assault weapons.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4169,7 +4199,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8abd-51e7-2ee4-29a6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="48bb-61f4-4c8c-93fb" name="Hunter&apos;s Instincts" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="48bb-61f4-4c8c-93fb" name="Hunter&apos;s Instincts" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Until the end of the first battle round, add 1 to Advance and charge rolls made for units with this Cult Creed.</characteristic>
                           </characteristics>
@@ -4186,7 +4216,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1e3-f1b6-eb88-4467" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f7af-1c9b-cf8b-31ee" name="Innate Fighters" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="f7af-1c9b-cf8b-31ee" name="Innate Fighters" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a melee weapon by a model with this Cult Creed in a turn in which it made a charge move, was charged or performed a Heroic Intervention, re-roll a hit roll of 1.</characteristic>
                           </characteristics>
@@ -4203,9 +4233,9 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="903a-ca3f-0084-65e9" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="d29c-8555-45f4-f478" name="Thralls of the Patriarch" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="d29c-8555-45f4-f478" name="Thralls of the Patriarch" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
-                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Morale test is taken for a unit with this Cult Creed, halve the number of models that flee (rounding up).</characteristic>
+                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a Morale test is failed for a unit with this Cult Creed, until the end of the phase, halve the number of models that flee that unit due to failed Combat Attrition tests (rounding fractions down).</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4220,7 +4250,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6823-de2f-116c-b3c4" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="ebd1-84b7-d9f0-fcbe" name="Seasoned Enforcers" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="ebd1-84b7-d9f0-fcbe" name="Seasoned Enforcers" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY models with this Cult Creed do not suffer the penalty for moving and firing Heavy weapons.</characteristic>
                           </characteristics>
@@ -4237,9 +4267,9 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fbe-b232-c202-9a6c" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8105-8d0b-04e7-8dc2" name="Agile Outriders" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="8105-8d0b-04e7-8dc2" name="Agile Outriders" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
-                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BIKER models with this Cult Creed do not suffer the penalty for moving and firing Heavy weapons and do not suffer the penalty for Advancing and firing Assault weapons.</characteristic>
+                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a BIKER unit with this Cult Creed Advances, until the end of the turn, all models in that unit treat all Pistol and Rapid Fire weapons they are equipped with as Assault weapons. BIKER models with this Cult Creed do not suffer the penalty for Advancing and firing Assault weapons.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4254,7 +4284,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="474c-c4de-c115-62ee" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f640-d4ec-2e2a-e091" name="Armour-piercing Ammunition" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="f640-d4ec-2e2a-e091" name="Armour-piercing Ammunition" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with an autopistol, autogun or heavy stubber by a model with this Cult Creed against a unit that is within half range, that weapon has an Armour Penetration characteristic of -1 for that attack.</characteristic>
                           </characteristics>
@@ -4271,7 +4301,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c00e-6058-12e0-470b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="7c54-5e28-974d-5ac6" name="Munitions Experts" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="7c54-5e28-974d-5ac6" name="Munitions Experts" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength characteristic of Grenade weapons models with this Cult Creed are equipped with.</characteristic>
                           </characteristics>
@@ -4288,7 +4318,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f43-4394-9201-17d4" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="11c0-dba1-05d3-fbf6" name="Unnatural Symbiosis" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="11c0-dba1-05d3-fbf6" name="Unnatural Symbiosis" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Psychic test is taken for a &lt;CULT&gt; model with this Cult Creed within 6&quot; of another &lt;CULT&gt; unit, you can re-roll any or all dice rolls of 1.</characteristic>
                           </characteristics>
@@ -4305,7 +4335,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2656-47b0-2504-f212" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="587f-db8b-c333-2f44" name="Workers Arisen" publicationId="c9b0-fc84-0874-26d4" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="587f-db8b-c333-2f44" name="Workers Arisen" publicationId="4593-a2f0-546a-d6f2" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a weapon from the Heavy Mining Weapons list (see Codex: Genestealer Cults) by a model with this Cult Creed, you can re-roll the hit roll.</characteristic>
                           </characteristics>
@@ -4329,7 +4359,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1473-9b47-b61e-8591" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="1b39-ccb7-7f9f-101f" name="Devout Worshippers" publicationId="c9b0-fc84-0874-26d4" page="75" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="1b39-ccb7-7f9f-101f" name="Devout Worshippers" publicationId="4593-a2f0-546a-d6f2" page="75" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a charge roll is made for a &lt;CULT&gt; unit with this Cult Creed whilst it is within 3&quot; of a friendly &lt;CULT&gt; HYBRID METAMORPHS unit, you can re-roll the dice. This Cult Creed cannot be selected together with the Hunter&apos;s Instincts Cult Creed.</characteristic>
                           </characteristics>
@@ -4346,7 +4376,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a997-f7cc-f048-7ac9" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="dad4-8181-117e-2c81" name="Poisoned Blades" publicationId="c9b0-fc84-0874-26d4" page="75" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="dad4-8181-117e-2c81" name="Poisoned Blades" publicationId="4593-a2f0-546a-d6f2" page="75" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a bonesword, a lash whip and bonesword, or a cultist knife by a model with this Cult Creed, on an unmodified hit roll of 6 you can make on additional attack against the same unit with the same weapon. This additional attack cannot generate another attack.</characteristic>
                           </characteristics>
@@ -4450,7 +4480,7 @@
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4509,7 +4539,7 @@
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b66b-2cc7-7b17-5486" name="Brood Brothers Weapons Team" hidden="false" collective="false" import="true" type="model">
@@ -4554,7 +4584,7 @@
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="20ab-3775-f9a3-7557" name="Brood Brother (Vox-caster)" hidden="false" collective="false" import="true" type="model">
@@ -4599,7 +4629,7 @@
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4645,7 +4675,7 @@
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                    <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fda6-5d6f-82e3-6039" name="Brood Brother (Grenade)" hidden="false" collective="false" import="true" type="model">
@@ -4684,7 +4714,7 @@
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                    <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4870,7 +4900,7 @@
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4975,7 +5005,7 @@
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="62be-8583-7d0e-f075" name="Atalan Leader" hidden="false" collective="false" import="true" type="model">
@@ -5021,7 +5051,7 @@
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5099,7 +5129,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target CHARACTERS even if it is not the closest enemy unit. If you roll a wound roll of 6+ for this weapon, it inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5132,7 +5162,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="70.0"/>
+        <cost name="pts" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1687-0288-ad84-0583" name="Locus" hidden="false" collective="false" import="true" type="model">
@@ -5187,7 +5217,7 @@
         </profile>
         <profile id="f946-809c-7caf-ec93" name="Sudden Strike" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the Charge phase, if this model is within 3&quot; of any enemy units after your opponent has completed all of their charge moves, it can perform a Heroic Intervention. This model can move up to 6&quot; when performing Heroic Interventions and can choose to move towards the nearest enemy CHARACTER within 6&quot; rather than the nearest enemy model.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the Charge phase, if this model is within 6&quot; of any enemy units after your opponent has completed all of their charge moves, it can perform a Heroic Intervention. This model can move up to 6&quot; when performing Heroic Interventions and can choose to move towards the nearest enemy CHARACTER within 6&quot; rather than the nearest enemy model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5243,7 +5273,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09a2-4d3f-de5d-c066" name="Clamavus" hidden="false" collective="false" import="true" type="model">
@@ -5304,7 +5334,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a333-8de4-7052-df1a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7296-ba08-4903-ab8f" name="Commanding Amplification" publicationId="c9b0-fc84-0874-26d4" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="7296-ba08-4903-ab8f" name="Commanding Amplification" publicationId="4593-a2f0-546a-d6f2" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle. Select one CLAMAVUS model from your army. The range of that model&apos;s Proclamator Hailer ability is increased by 3&quot;. The same model cannot be selected by this Stratagem more than once per battle.</characteristic>
               </characteristics>
@@ -5333,7 +5363,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="55.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="085f-2336-b6d0-4a0f" name="Sanctus" hidden="false" collective="false" import="true" type="model">
@@ -5360,7 +5390,7 @@
         </profile>
         <profile id="c91d-873e-bd92-9832" name="Camo Cloak" publicationId="83b2-e602-pubN65537" page="91" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to saving throws made for this model when it receives the benefit of cover, instead of 1.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is allocated to this model while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack.</characteristic>
           </characteristics>
         </profile>
         <profile id="8142-c0e2-edc9-f803" name="Soulsight Familiar" publicationId="83b2-e602-pubN65537" page="91" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5427,7 +5457,7 @@
           <selectionEntries>
             <selectionEntry id="e19f-299f-c211-bfd8" name="Silencer Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="408b-5c62-430a-8eb6" value="1">
+                <modifier type="set" field="408b-5c62-430a-8eb6" value="1.0">
                   <conditions>
                     <condition field="selections" scope="085f-2336-b6d0-4a0f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a57-762a-78a1-dc47" type="atLeast"/>
                   </conditions>
@@ -5444,7 +5474,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target CHARACTERS even if it is not the closest enemy unit. If you roll a wound roll of 6+ for this weapon, it inflicts 1 mortal wound in addition to its normal damage. If a PSYKER unit loses any wounds as a result of an attack made by this weapon, it suffers Perils of the Warp after the attack has been resolved.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. If you roll a wound roll of 6+ for this weapon, it inflicts 1 mortal wound in addition to its normal damage. If a PSYKER unit loses any wounds as a result of an attack made by this weapon, it suffers Perils of the Warp after the attack has been resolved.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5494,7 +5524,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="55.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fbd-4cb7-b131-693a" name="Nexos" hidden="false" collective="false" import="true" type="model">
@@ -5556,7 +5586,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d4a8-701d-fa3d-9193" name="Tectonic Fragdrill" hidden="false" collective="false" import="true" type="model">
@@ -5594,7 +5624,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="75.0"/>
+        <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67a4-1d81-a33c-9010" name="Augur Array" hidden="false" collective="false" import="true" type="upgrade">
@@ -5636,7 +5666,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa0a-703b-8739-c4ee" name="Cult Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
@@ -5692,7 +5722,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f1f-775f-00e2-eb90" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" type="model">
@@ -5767,7 +5797,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="40.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -5811,7 +5841,7 @@
         </profile>
         <profile id="9fa2-6562-9fd3-72b5" name="Gunslinger" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target enemy CHARACTERS even if they are not the closest enemy model. In addition, each time this model hits an enemy with a Pistol weapon, it can immediately make one additional hit roll against that target using the same weapon. These bonus hit rolls cannot themselves generate any further hit rolls.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you select a target for a ranged attack made by this model, you can ignore the Look Out, Sir rule. In addition, each time this model hits an enemy with a Pistol weapon, it can immediately make one additional hit roll against that target using the same weapon. These bonus hit rolls cannot themselves generate any further hit rolls.</characteristic>
           </characteristics>
         </profile>
         <profile id="3fb9-3e7f-1903-c11f" name="Heroic Deeds, Heroic Inspiration" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5871,7 +5901,7 @@
         <entryLink id="8aea-a730-c77d-8170" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="75.0"/>
+        <cost name="pts" typeId="points" value="80.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5891,7 +5921,7 @@
         <infoLink id="e060-35ba-6735-5806" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="6.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5902,7 +5932,7 @@
         <infoLink id="e15d-3518-b6c1-15fa" name="Grenade Launcher (Krak)" hidden="false" targetId="bb2e-ee6b-523b-4440" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5912,7 +5942,7 @@
         <infoLink id="2f0c-20c0-eccb-5253" name="Webber" hidden="false" targetId="ddfb-d8d7-f9da-0be1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5922,7 +5952,7 @@
         <infoLink id="4bb1-3cd1-e971-b305" name="Heavy stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5932,7 +5962,7 @@
         <infoLink id="ba48-a4d7-9065-a0ca" name="Mining Laser" hidden="false" targetId="a6bc-5e15-9fa4-3299" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="12.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5943,7 +5973,7 @@
         <infoLink id="631b-cf87-449f-55a5" name="Seismic Cannon (Short-wave)" hidden="false" targetId="2736-e4a8-0ab1-87a0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="12.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5963,7 +5993,7 @@
         <infoLink id="bea3-a41a-bdad-9060" name="Heavy Mortar" hidden="false" targetId="c896-f8f4-62c4-b631" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="8.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5993,7 +6023,7 @@
         <infoLink id="78bc-a0c1-370a-55e8" name="Power Hammer" hidden="false" targetId="4dcd-6060-43d5-8385" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="4.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -6003,7 +6033,7 @@
         <infoLink id="99ca-8477-2aaf-a095" name="Power Pick" hidden="false" targetId="1d9b-91af-1fc1-4471" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="9.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -6015,7 +6045,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="14.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="641c-6606-1585-4ea0" name="Grandsire&apos;s Gifts" hidden="false" collective="false" import="true" type="upgrade">
@@ -6232,7 +6262,7 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5420-1d51-3cac-f743" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a9bd-f8e6-cb56-fd89" name="Undermine" publicationId="c9b0-fc84-0874-26d4" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="a9bd-f8e6-cb56-fd89" name="Undermine" publicationId="4593-a2f0-546a-d6f2" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
@@ -6278,7 +6308,7 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d9-ab51-5771-6ecc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b2c5-5374-b70f-fb88" name="Synaptic Blast" publicationId="c9b0-fc84-0874-26d4" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="b2c5-5374-b70f-fb88" name="Synaptic Blast" publicationId="4593-a2f0-546a-d6f2" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
@@ -6324,7 +6354,7 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f77-c174-f255-d373" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5603-da02-6a08-17da" name="Undying Vigour" publicationId="c9b0-fc84-0874-26d4" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="5603-da02-6a08-17da" name="Undying Vigour" publicationId="4593-a2f0-546a-d6f2" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
@@ -6370,7 +6400,7 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="751f-f2a6-0f0f-64a7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5260-02bf-2063-172c" name=" Unescapable Decay" publicationId="c9b0-fc84-0874-26d4" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="5260-02bf-2063-172c" name=" Unescapable Decay" publicationId="4593-a2f0-546a-d6f2" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
@@ -6416,7 +6446,7 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e72-e31d-126b-7b17" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7c9f-4a23-8e1b-101e" name="Last Gasp" publicationId="c9b0-fc84-0874-26d4" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="7c9f-4a23-8e1b-101e" name="Last Gasp" publicationId="4593-a2f0-546a-d6f2" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
@@ -6462,7 +6492,7 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb21-8027-554b-5143" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4b9f-615c-1ed3-5fb1" name="Muagenic Deviation" publicationId="c9b0-fc84-0874-26d4" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="4b9f-615c-1ed3-5fb1" name="Muagenic Deviation" publicationId="4593-a2f0-546a-d6f2" page="78" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
@@ -6555,12 +6585,12 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b677-d250-c1e3-4c5d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3c74-24bd-3a48-b525" name="Blessed Sledgehammer" publicationId="83b2-e602-pubN88803" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="3c74-24bd-3a48-b525" name="Blessed Sledgehammer" publicationId="28ec-711c-pubN98266" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ABOMINANT only. The Blessed Sledgehammer replaces the bearer&apos;s power sledgehammer.</characteristic>
               </characteristics>
             </profile>
-            <profile id="0543-2f8a-76b8-7766" name="Blessed Sledgehammer" publicationId="83b2-e602-pubN88803" page="186" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="0543-2f8a-76b8-7766" name="Blessed Sledgehammer" publicationId="28ec-711c-pubN98266" page="186" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -6594,7 +6624,7 @@ If your opponent has the first turn, then none of their units can be set up or e
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9408-9d49-8de5-748a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ad6a-4661-32c5-8cfc" name="Vial of the Grandsire&apos;s Blood" publicationId="83b2-e602-pubN88803" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="ad6a-4661-32c5-8cfc" name="Vial of the Grandsire&apos;s Blood" publicationId="28ec-711c-pubN98266" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of friendly GENESTEALER CULTS units within 6&quot; of the bearer. In addition, once per battle, at the start of the Fight phase, you can pick a GENESTEALER CULTS INFANTRY model within 3&quot; of the bearer. Add 2 to that model&apos;s Attacks and Strength characteristics until the end of that phase.</characteristic>
               </characteristics>
@@ -6708,7 +6738,7 @@ If your opponent has the first turn, then none of their units can be set up or e
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target enemy CHARACTERS even if they are not the closest enemy unit. You can re-roll wound rolls for attacks made with this weapon when targeting enemy CHARACTERS.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. You can re-roll wound rolls for attacks made with this weapon when targeting enemy CHARACTERS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7638,7 +7668,9 @@ When you set up a unit in ambush, place one ambush marker anywhere on the battle
 
 In matched play, units set up in ambush using this rule count as being set up on the battlefield for the purposes of Tactical Reserves.
 
-For ambush markers, see Codex: Genestealer Cults p79.</description>
+For ambush markers, see Codex: Genestealer Cults p79.
+
+Matched Play: In matched play, units set up in ambush using this rule do not count as being Strategic Reserves or Reinforcement units.</description>
     </rule>
     <rule id="83cc-a64d-d8bd-7a4a" name="Unquestioning Loyalty" publicationId="83b2-e602-pubN65537" page="75" hidden="false">
       <description>Each time you fail a saving throw for a &lt;CULT&gt; CHARACTER model, and each time a &lt;CULT&gt; CHARACTER suffers a mortal wound, before allocating damage check to see if it is within 3&quot; of any &lt;CULT&gt; or BROOD BROTHERS units with this ability. If it is, you can select one of those units and roll a D6; on a 4+ you do not inflict any damage on the character, but one model in the selected unit (your choice) is slain. Otherwise, the character suffers damage as normal.</description>
@@ -7650,7 +7682,7 @@ In addition, to represent Astra Militarum forces that have been subverted, you c
 
 If your army is Battle-forged, you can only include one ASTRA MILITARUM Detachment (one in which every unit has the ASTRA MILITARUM keyword) in your army for each GENESTEALER CULTS Detachment in that army. You cannot include ASTRA MILITARUM named characters in these Detachments, and these Detachments cannot be Specialist Detachments. These ASTRA MILITARUM Detachments are then known as BROOD BROTHERS Detachments, and every unit in them that has the &lt;REGIMENT&gt; or MILITARUM TEMPESTUS keyword must replace it in every instance on its datasheet with BROOD BROTHERS (if a unit does not have either of these keywords, it simply gains the BROOD BROTHERS keyword).
 
-BROOD BROTHERS Detachments do not gain any of the Detachment abilities listed in Codex: Astra Militarum, such as Regimental Doctrines, nor can they use any regiment-specific Stratagems, Orders etc. Furthermore, INFANTRY models in BROOD BROTHERS Detachments increase their Leadership characteristic by 1 and they gain the Unquestioning Loyalty ability. Units in BROOD BROTHERS Detachments do not gain the Cult Ambush ability. Your Warlord cannot be from a BROOD BROTHERS Detachment, and you cannot give any Relics to BROOD BROTHERS CHARACTERS. In addition, the Command Benefits of all BROOD BROTHERS Detachments included in your army in this way are halved (rounding up). This reflects that such Detachments are not a Genestealer Cult&apos;s primary fighting force, and the acquisition of such military assets is costly in terms of resource. The command benefits of Auxiliary Support Detachments are unaffected.
+BROOD BROTHERS Detachments do not gain any of the Detachment abilities listed in Codex: Astra Militarum, such as Regimental Doctrines, nor can they use any regiment-specific Stratagems, Orders etc. Furthermore, INFANTRY models in BROOD BROTHERS Detachments increase their Leadership characteristic by 1 and they gain the Unquestioning Loyalty ability. Units in BROOD BROTHERS Detachments do not gain the Cult Ambush ability. Your Warlord cannot be from a BROOD BROTHERS Detachment, and you cannot give any Relics to BROOD BROTHERS CHARACTERS. BROOD BROTHERS Detachments do not gain Command Benefits. This reflects that such Detachments are not a Genestealer Cult&apos;s primary fighting force, and the acquisition of such military assets is costly in terms of resource. The command benefits of Auxiliary Support Detachments are unaffected.
 
 BROOD BROTHERS units that have the Voice of Command or Tank Orders abilities (see Codex: Astra Militarum) cannot issue orders to any unit that has the GENSTEALER CULTS Faction keyword, nor can they issue orders to units that they would not have been able to issue orders to before they gained the BROOD BROTHERS keyword (e.g. a BROOD BROTHERS COMPANY COMMANDER cannot issue orders to a BROOD BROTHERS OGRYN unit or to a BROOD BROTHERS TEMPESTUS SCIONS unit).
 
@@ -7665,7 +7697,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="5af9-c8a4-688f-8d84" name="Cache of Demolition Charges" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7675,7 +7707,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can only be fired if a model (excluding models with a Balistic Skill characteristic of &apos;-&apos;) is embarked upon the vehicle equipped with it.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can only be fired if a model (excluding models with a Balistic Skill characteristic of &apos;-&apos;) is embarked upon the vehicle equipped with it. Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="7e36-8493-f7bf-c9e2" name="Clearance Incinerator" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7695,7 +7727,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only use this weapon once per battle.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only use this weapon once per battle. Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="4a08-665d-7602-39df" name="Eradicator Nova Cannon" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7705,7 +7737,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units in cover do not receive any bonus to their saving throws against wounds caused by this weapon.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units in cover do not receive any bonus to their saving throws against wounds caused by this weapon. Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="ff2d-8509-aca0-8a5b" name="Exterminator Autocannon" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7725,7 +7757,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="bb2e-ee6b-523b-4440" name="Grenade Launcher (Krak)" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7755,7 +7787,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="1e85-623e-4962-f2a9" name="Heavy Seismic Cannon (Long-wave)" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7805,7 +7837,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Mortars can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Mortars can target units that are not visible to the firing model. Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="4ec3-6aa8-1d55-3f62" name="Needle Pistol" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8152,7 +8184,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the bearer.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the bearer. Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="ef45-e91a-fd5d-020e" name="Frag Grenade" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8162,7 +8194,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="efdf-6331-1ed2-5225" name="Improvised Weapon" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
